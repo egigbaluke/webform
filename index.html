@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webforms</title>
+        <style>
+            html{
+                background-color:  #F4DEB3;
+            }
+        </style>
+    </head>
+    <body>
+         <h1 style="color: blue;">HTML FORMS</h1>
+           <form>
+                 <label for="username">Username</label>
+                 <input type="text" id="username" name="username" style="color: blue;" placeholder="your username"> <br><br>
+                 <label for="password">Password</label>
+                 <input type="password" id="password" name="password" style="color: blue;" placeholder="your password"> <br> <br>
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email" style="color: blue;" placeholder="your email">
+                 <hr>
+                 <h3> Select your age:</h3>
+
+                 <strong style="color: rgba(17, 0, 255, 0.589);">
+                        <input type="radio" name="age" value="0-25" id="option-1">
+                        <label for="option-1">0-25</label>
+                        <br>
+                        <input type="radio" name="age" value="26-50" id="option-2">
+                        <label for="option-2">26-50</label>
+                        <br>
+                        <input type="radio" name="age-1" value="51+" id="option-3">
+                        <label for="option-3">51+</label>
+                 </strong>
+                 <hr>
+
+                      <br><br>
+                 <label for="question">Security question</label>
+                 <select name="question" id="question" style="color: blue;">
+                        <option value="q1">Mother's maiden name</option>
+                        <option value="q2">Your favourite food</option>
+                        <option value="q3">Your favourite subject</option>  
+                 </select>
+                   <hr>
+
+                 <br>
+                 <br>
+                 <label for="question">Security question answer</label>
+                 <input type="text" id="question" style="color: blue;">
+                   <hr>
+
+                 <br>
+                 <label for="bio">Tell us your story</label><br>
+                 <textarea name="bio" id="bio" cols="30" rows="10" style="color: blue;" placeholder="Maximum of 100 words"></textarea>
+
+                 <br><br>
+
+                 <input type="submit" value="Submit the form">
+
+            </form>
+    </body>
+</html>
